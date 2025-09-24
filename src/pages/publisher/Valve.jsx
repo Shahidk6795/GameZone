@@ -9,7 +9,7 @@ const Valve = () => {
   const navigate = useNavigate();
 
   const games = [
-    { name: "Dota 2 (2013)", desc: "Valve’s flagship MOBA with a huge competitive esports scene.",
+    { name: "Dota 2 (2013)", desc: "Valve's flagship MOBA with a huge competitive esports scene.",
        img: dota2, path: "/games/dota2", rating: "9.5/10" },
     { name: "Counter-Strike: Global Offensive (2012)", desc: "Tactical team-based FPS still massively popular worldwide.",
        img: cs, path: "/games/csgo", rating: "9.3/10" },

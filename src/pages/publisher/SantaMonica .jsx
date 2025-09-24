@@ -1,16 +1,29 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+import gow2005 from "/src/assets/gow1.jpg";
+import gow2 from "/src/assets/gow2.webp";
+import gow3 from "/src/assets/gow3.jpg";
+import gowA from "/src/assets/gow_ascension.jpg";
+import gow2018 from "/src/assets/gow2018.webp";
+import gowragnarok from "/src/assets/gow_ragnarok.jpg";
+
 const SantaMonica = () => {
   const navigate = useNavigate();
 
   const games = [
-    { name: "God of War (2005)", desc: "The original PS2 classic that started Kratos’ epic journey.", img: "/src/assets/gow1.jpg", path: "/games/gow1", rating: "9.5/10" },
-    { name: "God of War II (2007)", desc: "Expanded story, improved combat, and epic boss battles.", img: "/src/assets/gow2.webp", path: "/games/gow2", rating: "9.7/10" },
-    { name: "God of War III (2010)", desc: "Epic conclusion to the original Greek mythology trilogy.", img: "/src/assets/gow3.jpg", path: "/games/gow3", rating: "9.8/10" },
-    { name: "God of War: Ascension (2013)", desc: "Prequel exploring Kratos’ early struggles and revenge.", img: "/src/assets/gow_ascension.jpg", path: "/games/gow-ascension", rating: "8.9/10" },
-    { name: "God of War (2018)", desc: "Reboot/sequel set in Norse mythology with deep storytelling.", img: "/src/assets/gow2018.webp", path: "/games/gow2018", rating: "9.9/10" },
-    { name: "God of War Ragnarök (2022)", desc: "Latest entry with massive world, epic combat, and cinematic storytelling.", img: "/src/assets/gow_ragnarok.jpg", path: "/games/gow-ragnarok", rating: "10/10" }
+    { name: "God of War (2005)", desc: "The original PS2 classic that started Kratos’ epic journey.",
+       img: gow2005, path: "/games/gow1", rating: "9.5/10" },
+    { name: "God of War II (2007)", desc: "Expanded story, improved combat, and epic boss battles.",
+       img: gow2, path: "/games/gow2", rating: "9.7/10" },
+    { name: "God of War III (2010)", desc: "Epic conclusion to the original Greek mythology trilogy.",
+       img:gow3, path: "/games/gow3", rating: "9.8/10" },
+    { name: "God of War: Ascension (2013)", desc: "Prequel exploring Kratos’ early struggles and revenge.",
+       img: gowA, path: "/games/gow-ascension", rating: "8.9/10" },
+    { name: "God of War (2018)", desc: "Reboot/sequel set in Norse mythology with deep storytelling.",
+       img: gow2018, path: "/games/gow2018", rating: "9.9/10" },
+    { name: "God of War Ragnarök (2022)", desc: "Latest entry with massive world, epic combat, and cinematic storytelling.",
+       img: gowragnarok, path: "/games/gow-ragnarok", rating: "10/10" }
   ];
 
   return (

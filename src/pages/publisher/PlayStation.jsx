@@ -2,63 +2,56 @@ import SplashCursor from "@/components/SplashCursor";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+import got from "/src/assets/ghost_tsushima.jpg";
+import horizonwest from "/src/assets/horizon_fw.webp";
+import spiderman2 from "/src/assets/spiderman2.webp";
+import spiderman1 from "/src/assets/spiderman1.jpg";
+import horizon from "/src/assets/horizon_zerodawn.jpg";
+import forza5 from "/src/assets/forza_horizon5.jpg";
+
 const PlayStation = () => {
   const navigate = useNavigate();
 
   const games = [
     {
-      name: "The Last of Us Part II (2020)",
-      desc: "Ellie and Abby's intense journey of revenge and redemption in post-apocalyptic America.",
-      img: "/src/assets/tlou2.jpeg",
-      path: "/games/tlou2",
-      rating: "9.7/10",
-    },
-    {
-      name: "The Last of Us Part I (2022 Remake)",
-      desc: "Rebuilt from the ground up for PS5, Joel and Ellie's original journey with modern visuals and gameplay improvements.",
-      img: "/src/assets/tlou1remake.jpg",
-      path: "/games/tlou1",
-      rating: "9.6/10",
-    },
-    {
-      name: "Ghost of Tsushima Director’s Cut (2021)",
+      name: "Ghost of Tsushima Director's Cut (2021)",
       desc: "Open-world samurai adventure with stunning visuals and Iki Island expansion.",
-      img: "/src/assets/ghost_tsushima.jpg",
+      img: got,
       path: "/games/ghost-tsushima",
       rating: "9.5/10",
     },
     {
       name: "Horizon Forbidden West (2022)",
-      desc: "Aloy’s journey continues across a vast and vibrant post-apocalyptic world.",
-      img: "/src/assets/horizon_fw.webp",
+      desc: "Aloy's journey continues across a vast and vibrant post-apocalyptic world.",
+      img: horizonwest,
       path: "/games/horizon-forbidden-west",
       rating: "9.3/10",
     },
     {
-      name: "Marvel’s Spider-Man 2 (2023)",
+      name: "Marvel's Spider-Man 2 (2023)",
       desc: "Swing across New York as Peter Parker and Miles Morales in this blockbuster sequel.",
-      img: "/src/assets/spiderman2.webp",
+      img: spiderman2,
       path: "/games/spiderman2",
       rating: "9.4/10",
     },
     {
-      name: "Marvel’s Spider-Man (2018)",
+      name: "Marvel's Spider-Man (2018)",
       desc: "The award-winning open-world adventure where you fight crime as the original Spider-Man.",
-      img: "/src/assets/spiderman1.jpg",
+      img: spiderman1,
       path: "/games/spiderman1",
       rating: "9.2/10",
     },
     {
       name: "Horizon Zero Dawn (2017)",
-      desc: "Aloy’s original adventure in a post-apocalyptic world ruled by machines.",
-      img: "/src/assets/horizon_zerodawn.jpg",
+      desc: "Aloy's original adventure in a post-apocalyptic world ruled by machines.",
+      img: horizon,
       path: "/games/horizon-zero-dawn",
       rating: "9.1/10",
     },
     {
       name: "Forza Horizon 5 (2021)",
       desc: "Drive across Mexico in the latest entry of the open-world racing franchise.",
-      img: "/src/assets/forza_horizon5.jpg",
+      img: forza5,
       path: "/games/forza-horizon5",
       rating: "9.5/10",
     },

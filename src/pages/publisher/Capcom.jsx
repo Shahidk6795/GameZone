@@ -2,14 +2,23 @@ import SplashCursor from "@/components/SplashCursor";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+import Re2 from "/src/assets/re2.jpg";
+import Re3 from "/src/assets/re3.webp";
+import Revillage from "/src/assets/revillage.webp";
+import Re4 from "/src/assets/re4.jpg";
+
 const Capcom = () => {
   const navigate = useNavigate();
 
   const games = [
-    { name: "Resident Evil 2 Remake (2019)", desc: "Modern survival horror remake with updated graphics and mechanics.", img: "/src/assets/re2.jpg", path: "/games/re2", rating: "9.5/10" },
-    { name: "Resident Evil 3 Remake (2020)", desc: "Reimagined survival horror featuring Jill Valentine.", img: "/src/assets/re3.webp", path: "/games/re3", rating: "9/10" },
-    { name: "Resident Evil Village (2021)", desc: "Latest mainline entry with first-person perspective and horror action.", img: "/src/assets/revillage.webp", path: "/games/revillage", rating: "9.3/10" },
-    { name: "Resident Evil 4 Remake (2023)", desc: "Critically acclaimed modern remake of the classic survival horror.", img: "/src/assets/re4.jpg", path: "/games/re4", rating: "9.8/10" }
+    { name: "Resident Evil 2 Remake (2019)", desc: "Modern survival horror remake with updated graphics and mechanics.",
+       img: Re2, path: "/games/re2", rating: "9.5/10" },
+    { name: "Resident Evil 3 Remake (2020)", desc: "Reimagined survival horror featuring Jill Valentine.",
+       img: Re3, path: "/games/re3", rating: "9/10" },
+    { name: "Resident Evil Village (2021)", desc: "Latest mainline entry with first-person perspective and horror action.",
+       img: Revillage, path: "/games/revillage", rating: "9.3/10" },
+    { name: "Resident Evil 4 Remake (2023)", desc: "Critically acclaimed modern remake of the classic survival horror.",
+       img: Re4, path: "/games/re4", rating: "9.8/10" }
   ];
 
   return (

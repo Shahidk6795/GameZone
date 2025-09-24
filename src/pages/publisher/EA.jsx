@@ -2,14 +2,23 @@ import SplashCursor from "@/components/SplashCursor";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+import fifa23 from "/src/assets/fifa23.jpg";
+import fifa24 from "/src/assets/fifa24.jpeg";
+import fifa25 from "/src/assets/fifa25.webp";
+import madden24 from "/src/assets/madden24.jpg";
+
 const EA = () => {
   const navigate = useNavigate();
 
   const games = [
-    { name: "FIFA 23", desc: "Realistic football simulation with current teams and leagues.", img: "/src/assets/fifa23.jpg", path: "/games/fifa23", rating: "9/10" },
-    { name: "FIFA 24", desc: "Next-gen football experience with updated rosters.", img: "/src/assets/fifa24.jpeg", path: "/games/fifa24", rating: "9.2/10" },
-    { name: "FIFA 25", desc: "Ultimate football gameplay with enhanced graphics.", img: "/src/assets/fifa25.webp", path: "/games/fifa25", rating: "9.3/10" },
-    { name: "Madden NFL 24", desc: "American football simulation with realistic gameplay and teams.", img: "/src/assets/madden24.jpg", path: "/games/madden24", rating: "8.8/10" }
+    { name: "FIFA 23", desc: "Realistic football simulation with current teams and leagues.",
+       img: fifa23, path: "/games/fifa23", rating: "9/10" },
+    { name: "FIFA 24", desc: "Next-gen football experience with updated rosters.",
+       img: fifa24, path: "/games/fifa24", rating: "9.2/10" },
+    { name: "FIFA 25", desc: "Ultimate football gameplay with enhanced graphics.",
+       img: fifa25, path: "/games/fifa25", rating: "9.3/10" },
+    { name: "Madden NFL 24", desc: "American football simulation with realistic gameplay and teams.",
+       img: madden24, path: "/games/madden24", rating: "8.8/10" }
   ];
 
   return (

@@ -1,13 +1,20 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+import dota2 from "/src/assets/dota2.webp";
+import cs from "/src/assets/csgo.jpg";
+import hl from "/src/assets/hl_alyx.jpg";
+
 const Valve = () => {
   const navigate = useNavigate();
 
   const games = [
-    { name: "Dota 2 (2013)", desc: "Valve’s flagship MOBA with a huge competitive esports scene.", img: "/src/assets/dota2.webp", path: "/games/dota2", rating: "9.5/10" },
-    { name: "Counter-Strike: Global Offensive (2012)", desc: "Tactical team-based FPS still massively popular worldwide.", img: "/src/assets/csgo.jpg", path: "/games/csgo", rating: "9.3/10" },
-    { name: "Half-Life: Alyx (2020)", desc: "The latest VR entry in the Half-Life series with immersive gameplay.", img: "/src/assets/hl_alyx.jpg", path: "/games/hl-alyx", rating: "9.6/10" },
+    { name: "Dota 2 (2013)", desc: "Valve’s flagship MOBA with a huge competitive esports scene.",
+       img: dota2, path: "/games/dota2", rating: "9.5/10" },
+    { name: "Counter-Strike: Global Offensive (2012)", desc: "Tactical team-based FPS still massively popular worldwide.",
+       img: cs, path: "/games/csgo", rating: "9.3/10" },
+    { name: "Half-Life: Alyx (2020)", desc: "The latest VR entry in the Half-Life series with immersive gameplay.",
+       img: hl, path: "/games/hl-alyx", rating: "9.6/10" },
   ];
 
   return (

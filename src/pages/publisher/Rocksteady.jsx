@@ -2,8 +2,7 @@ import SplashCursor from "@/components/SplashCursor";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-//import images
-
+// Import Rocksteady game images
 import ArkhamAsylumImage from "/src/assets/arkham_asylum.webp";
 import ArkhamCity from "/src/assets/arkham_city.jpg";
 import ArkhamKnight from "/src/assets/arkham_knight.jpg";

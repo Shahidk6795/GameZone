@@ -1,16 +1,26 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+import wwe23 from "/src/assets/wwe2k23.jpeg";
+import wwe24 from "/src/assets/wwe2k24.webp";
+import wwe25 from "/src/assets/wwe2k25.jpg";
+import mafia1 from "/src/assets/mafia_definitive.jpeg";
+import mafia2 from "/src/assets/mafia_old.webp";
+
 const TwoK = () => {
   const navigate = useNavigate();
 
   const games = [
-    { name: "WWE 2K23", desc: "Step into the ring and dominate your opponents.", img: "/src/assets/wwe2k23.jpeg", path: "/games/wwe2k23", rating: "8.5/10" },
-    { name: "WWE 2K24", desc: "Enhanced gameplay and new WWE superstars.", img: "/src/assets/wwe2k24.webp", path: "/games/wwe2k24", rating: "8.7/10" },
-    { name: "WWE 2K25", desc: "The ultimate wrestling experience with realistic graphics and story modes.", img: "/src/assets/wwe2k25.jpg", path: "/games/wwe2k25", rating: "9/10" },
-
-    { name: "Mafia: Definitive Edition", desc: "Step into the life of a mobster in 1930s America.", img: "/src/assets/mafia_definitive.jpeg", path: "/games/mafia-definitive", rating: "9/10" },
-    { name: "Mafia: The City of Lost Heaven (Old Country)", desc: "Original Mafia experience for classic gamers.", img: "/src/assets/mafia_old.webp", path: "/games/mafia-old", rating: "8.3/10" }
+    { name: "WWE 2K23", desc: "Step into the ring and dominate your opponents.",
+       img: wwe23, path: "/games/wwe2k23", rating: "8.5/10" },
+    { name: "WWE 2K24", desc: "Enhanced gameplay and new WWE superstars.",
+       img: wwe24, path: "/games/wwe2k24", rating: "8.7/10" },
+    { name: "WWE 2K25", desc: "The ultimate wrestling experience with realistic graphics and story modes.",
+       img: wwe25, path: "/games/wwe2k25", rating: "9/10" },
+    { name: "Mafia: Definitive Edition", desc: "Step into the life of a mobster in 1930s America.",
+       img: mafia1, path: "/games/mafia-definitive", rating: "9/10" },
+    { name: "Mafia: The City of Lost Heaven (Old Country)", desc: "Original Mafia experience for classic gamers.",
+       img: mafia2, path: "/games/mafia-old", rating: "8.3/10" }
   ];
 
   return (

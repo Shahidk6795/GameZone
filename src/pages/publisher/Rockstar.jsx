@@ -1,16 +1,29 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+import gtav from "/src/assets/gta5.webp";
+import gtavi from "/src/assets/gta6.webp";
+import gtas from "/src/assets/gta_sa.jpg";
+import rdr2 from "/src/assets/rdr2.jpg";
+import rdr1 from "/src/assets/rdr1.webp";
+import bully from "/src/assets/bully.jpg";
+
 const Rockstar = () => {
   const navigate = useNavigate();
 
   const games = [
-    { name: "Grand Theft Auto V", desc: "Open-world crime adventure in Los Santos.", img: "/src/assets/gta5.webp", path: "/games/gta5", rating: "9.5/10" },
-    { name: "Grand Theft Auto VI", desc: "The next generation open-world crime experience.", img: "/src/assets/gta6.webp", path: "/games/gta6", rating: "9.8/10" },
-    { name: "Grand Theft Auto: San Andreas", desc: "Epic crime story across three cities.", img: "/src/assets/gta_sa.jpg", path: "/games/gta-sa", rating: "9.3/10" },
-    { name: "Red Dead Redemption 2", desc: "An epic tale of life as an outlaw in the Wild West.", img: "/src/assets/rdr2.jpg", path: "/games/rdr2", rating: "9.8/10" },
-    { name: "Red Dead Redemption", desc: "Classic Wild West adventure and redemption story.", img: "/src/assets/rdr1.webp", path: "/games/rdr1", rating: "9/10" },
-    { name: "Bully", desc: "Step into the shoes of a mischievous student at Bullworth Academy.", img: "/src/assets/bully.jpg", path: "/games/bully", rating: "8.7/10" }
+    { name: "Grand Theft Auto V", desc: "Open-world crime adventure in Los Santos.",
+       img: gtav, path: "/games/gta5", rating: "9.5/10" },
+    { name: "Grand Theft Auto VI", desc: "The next generation open-world crime experience.",
+       img: gtavi, path: "/games/gta6", rating: "9.8/10" },
+    { name: "Grand Theft Auto: San Andreas", desc: "Epic crime story across three cities.",
+       img: gtas, path: "/games/gta-sa", rating: "9.3/10" },
+    { name: "Red Dead Redemption 2", desc: "An epic tale of life as an outlaw in the Wild West.",
+       img: rdr2, path: "/games/rdr2", rating: "9.8/10" },
+    { name: "Red Dead Redemption", desc: "Classic Wild West adventure and redemption story.",
+       img: rdr1, path: "/games/rdr1", rating: "9/10" },
+    { name: "Bully", desc: "Step into the shoes of a mischievous student at Bullworth Academy.",
+       img: bully, path: "/games/bully", rating: "8.7/10" }
   ];
 
   return (

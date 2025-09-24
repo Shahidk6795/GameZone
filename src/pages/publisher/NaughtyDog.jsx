@@ -2,6 +2,11 @@ import SplashCursor from "@/components/SplashCursor";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+import tl1 from "/src/assets/tlou1.jpg";
+import tl2 from "/src/assets/tlou2.jpeg";
+import uncharted4 from "/src/assets/uncharted4.jpg";
+import unchartedLostLegacy from "/src/assets/uncharted_lostlegacy.jpg";
+
 const NaughtyDog = () => {
   const navigate = useNavigate();
 
@@ -9,28 +14,28 @@ const NaughtyDog = () => {
     {
       name: "The Last of Us Part I (2022)",
       desc: "A ground-up remake of the original classic with modern graphics and gameplay enhancements.",
-      img: "/src/assets/tlou_part1.webp",
+      img: tl1,
       path: "/games/tlou-part1",
       rating: "9.8/10",
     },
     {
       name: "The Last of Us Part II (2020)",
       desc: "A gripping, emotional sequel with groundbreaking storytelling and gameplay.",
-      img: "/src/assets/tlou_part2.jpg",
+      img: tl2,
       path: "/games/tlou-part2",
       rating: "9.7/10",
     },
     {
-      name: "Uncharted 4: A Thief’s End (2016)",
-      desc: "Embark on Nathan Drake’s last adventure with breathtaking set-pieces and treasure hunting.",
-      img: "/src/assets/uncharted4.jpg",
+      name: "Uncharted 4: A Thief's End (2016)",
+      desc: "Embark on Nathan Drake's last adventure with breathtaking set-pieces and treasure hunting.",
+      img: uncharted4,
       path: "/games/uncharted4",
       rating: "9.5/10",
     },
     {
       name: "Uncharted: The Lost Legacy (2017)",
       desc: "A standalone adventure featuring Chloe Frazer and Nadine Ross in India.",
-      img: "/src/assets/uncharted_lostlegacy.jpg",
+      img: unchartedLostLegacy,
       path: "/games/uncharted-lostlegacy",
       rating: "9.3/10",
     },

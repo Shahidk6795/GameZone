@@ -2,6 +2,11 @@ import SplashCursor from "@/components/SplashCursor";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+import fortnite from "/src/assets/fortnite.jpg";
+import unrealTournament3 from "/src/assets/unrealtournament3.jpg";
+import matrixAwakens from "/src/assets/matrix_awaken.jpg";
+import fallGuys from "/src/assets/fallguys.webp";
+
 const EpicGames = () => {
   const navigate = useNavigate();
 
@@ -9,28 +14,28 @@ const EpicGames = () => {
     {
       name: "Fortnite (2017)",
       desc: "Battle Royale phenomenon with evolving seasons, creative mode, and crossovers.",
-      img: "/src/assets/fortnite.jpg",
+      img: fortnite,
       path: "/games/fortnite",
       rating: "9.5/10",
     },
     {
       name: "Unreal Tournament 3: Black (2007)",
       desc: "Fast-paced arena shooter running on Unreal Engine 3.",
-      img: "/src/assets/unrealtournament3.jpg",
+      img: unrealTournament3,
       path: "/games/unreal-tournament-3",
       rating: "8.9/10",
     },
     {
       name: "The Matrix Awakens: UE5 Experience (2021)",
       desc: "A free tech demo showing off Unreal Engine 5 in a city-scale environment.",
-      img: "/src/assets/matrix_awaken.jpg",
+      img: matrixAwakens,
       path: "/games/matrix-awakens",
       rating: "9.0/10",
     },
     {
       name: "Fall Guys: Ultimate Knockout (2020)",
       desc: "Chaotic party game with obstacle courses; acquired by Epic in 2021.",
-      img: "/src/assets/fallguys.webp",
+      img: fallGuys,
       path: "/games/fall-guys",
       rating: "9.2/10",
     },

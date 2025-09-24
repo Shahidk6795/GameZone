@@ -1,14 +1,22 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+import acm from "/src/assets/ac_mirage.jpg";
+import aco from "/src/assets/ac_odyssey.jpeg";
+import acv from "/src/assets/ac_valhalla.jpg";
+import acor from "/src/assets/ac_origins.jpg";
 const Ubisoft = () => {
   const navigate = useNavigate();
 
   const games = [
-    { name: "Assassin's Creed Mirage", desc: "Stealth and parkour in ancient Baghdad.", img: "/src/assets/ac_mirage.jpg", path: "/games/ac-mirage", rating: "9/10" },
-    { name: "Assassin's Creed Odyssey", desc: "Explore Ancient Greece as a mercenary.", img: "/src/assets/ac_odyssey.jpeg", path: "/games/ac-odyssey", rating: "9.2/10" },
-    { name: "Assassin's Creed Valhalla", desc: "Lead your clan as a Viking raider across England.", img: "/src/assets/ac_valhalla.jpg", path: "/games/ac-valhalla", rating: "8.8/10" },
-    { name: "Assassin's Creed Origins", desc: "Uncover the secrets of Ancient Egypt.", img: "/src/assets/ac_origins.jpg", path: "/games/ac-origins", rating: "9/10" },
+    { name: "Assassin's Creed Mirage", desc: "Stealth and parkour in ancient Baghdad.",
+       img: acm, path: "/games/ac-mirage", rating: "9/10" },
+    { name: "Assassin's Creed Odyssey", desc: "Explore Ancient Greece as a mercenary.",
+       img: aco, path: "/games/ac-odyssey", rating: "9.2/10" },
+    { name: "Assassin's Creed Valhalla", desc: "Lead your clan as a Viking raider across England.",
+       img: acv, path: "/games/ac-valhalla", rating: "8.8/10" },
+    { name: "Assassin's Creed Origins", desc: "Uncover the secrets of Ancient Egypt.",
+       img: acor, path: "/games/ac-origins", rating: "9/10" },
 
     { name: "Far Cry Primal", desc: "Experience survival in the Stone Age.", img: "/src/assets/farcryprimal.jpg", path: "/games/farcryprimal", rating: "8.4/10" },
 

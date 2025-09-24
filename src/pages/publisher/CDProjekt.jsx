@@ -2,14 +2,24 @@ import SplashCursor from "@/components/SplashCursor";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+
+import witcher3 from "/src/assets/w3_nextgen.webp";
+import cyberpunk2077 from "/src/assets/cyberpunk2077.jpg";
+import w3heartsofstone from "/src/assets/w3_heartsofstone.jpg";
+import w3bloodandwine from "/src/assets/w3_bloodandwine.jpeg";
+
 const CDProjekt = () => {
   const navigate = useNavigate();
 
   const games = [
-    { name: "The Witcher 3: Wild Hunt Next-Gen Update (2022 2023)", desc: "Remastered version with updated graphics and next-gen improvements.", img: "/src/assets/w3_nextgen.webp", path: "/games/w3-nextgen", rating: "9.8/10" },
-    { name: "Cyberpunk 2077 (2020)", desc: "Open-world futuristic RPG set in Night City with deep story and immersive gameplay.", img: "/src/assets/cyberpunk2077.jpg", path: "/games/cyberpunk2077", rating: "8.9/10" },
-    { name: "The Witcher 3: Hearts of Stone (2015)", desc: "Expansion introducing a new story arc with challenging quests and characters.", img: "/src/assets/w3_heartsofstone.jpg", path: "/games/w3-heartsofstone", rating: "9.2/10" },
-    { name: "The Witcher 3: Blood and Wine (2016)", desc: "Major expansion featuring a new region, storyline, and endgame content.", img: "/src/assets/w3_bloodandwine.jpeg", path: "/games/w3-bloodandwine", rating: "9.5/10" }
+    { name: "The Witcher 3: Wild Hunt Next-Gen Update (2022 2023)", desc: "Remastered version with updated graphics and next-gen improvements.",
+       img: witcher3, path: "/games/w3-nextgen", rating: "9.8/10" },
+    { name: "Cyberpunk 2077 (2020)", desc: "Open-world futuristic RPG set in Night City with deep story and immersive gameplay.",
+       img: cyberpunk2077, path: "/games/cyberpunk2077", rating: "8.9/10" },
+    { name: "The Witcher 3: Hearts of Stone (2015)", desc: "Expansion introducing a new story arc with challenging quests and characters.",
+       img: w3heartsofstone, path: "/games/w3-heartsofstone", rating: "9.2/10" },
+    { name: "The Witcher 3: Blood and Wine (2016)", desc: "Major expansion featuring a new region, storyline, and endgame content.",
+       img: w3bloodandwine, path: "/games/w3-bloodandwine", rating: "9.5/10" }
   ];
 
   return (

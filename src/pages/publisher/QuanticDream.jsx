@@ -2,6 +2,12 @@ import SplashCursor from "@/components/SplashCursor";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+
+import detroit from "/src/assets/detroit.jpg";
+import beyond from "/src/assets/beyond.jpeg";
+import heavyRain from "/src/assets/heavyrain.jpg";
+import fahrenheit from "/src/assets/fahrenheit.jpg";
+
 const QuanticDream = () => {
   const navigate = useNavigate();
 
@@ -9,28 +15,28 @@ const QuanticDream = () => {
     {
       name: "Detroit: Become Human (2018)",
       desc: "Play as three androids in a branching, choice-driven narrative set in a near-future Detroit.",
-      img: "/src/assets/detroit.jpg",
+      img: detroit,
       path: "/games/detroit",
       rating: "9.6/10",
     },
     {
       name: "Beyond: Two Souls (2013)",
-      desc: "Experience Jodie Holmes’ life linked to a mysterious entity, starring Ellen Page and Willem Dafoe.",
-      img: "/src/assets/beyond.jpeg",
+      desc: "Experience Jodie Holmes' life linked to a mysterious entity, starring Ellen Page and Willem Dafoe.",
+      img: beyond,
       path: "/games/beyond",
       rating: "9.2/10",
     },
     {
       name: "Heavy Rain (2010)",
       desc: "A tense psychological thriller following four characters hunting the Origami Killer.",
-      img: "/src/assets/heavyrain.jpg",
+      img: heavyRain,
       path: "/games/heavy-rain",
       rating: "9.0/10",
     },
     {
       name: "Fahrenheit / Indigo Prophecy (Remastered)",
       desc: "A supernatural murder mystery adventure blending cinematic action and interactive drama.",
-      img: "/src/assets/fahrenheit.jpg",
+      img: fahrenheit,
       path: "/games/fahrenheit",
       rating: "8.8/10",
     },

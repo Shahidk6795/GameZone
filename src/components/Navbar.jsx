@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 // Import all publisher logos
 import UbisoftLogo from "../assets/ubisoft.png";
-import KLogo from "../assets/2kLogo.png";
+import KLogo from "../assets/2KLogo.png";
 import RockstarLogo from "../assets/rockstar.png";
 import SantaMonicaLogo from "../assets/santamonica.png";
 import EALogo from "../assets/ea.png";

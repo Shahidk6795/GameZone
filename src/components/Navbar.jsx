@@ -2,24 +2,24 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 // Import all publisher logos
-import UbisoftLogo from "@/assets/ubisoft.png";
-import TwoKLogo from "@/assets/2kLogo.png";
-import RockstarLogo from "@/assets/rockstar.png";
-import SantaMonicaLogo from "@/assets/santamonica.png";
-import EALogo from "@/assets/ea.png";
-import ActivisionLogo from "@/assets/activision.png";
-import ValveLogo from "@/assets/valve.png";
-import CapcomLogo from "@/assets/capcom.png";
-import CDProjektLogo from "@/assets/cdprojekt.jpeg";
-import NaughtyDogLogo from "@/assets/naughtydog.png";
-import QuanticDreamLogo from "@/assets/quanticdream.png";
-import RocksteadyLogo from "@/assets/rocksteady.png";
-import SonyLogo from "@/assets/sony.png";
-import EpicGamesLogo from "@/assets/epicgames.png";
+import UbisoftLogo from "../assets/ubisoft.png";
+import TwoKLogo from "../assets/2kLogo.png";
+import RockstarLogo from "../assets/rockstar.png";
+import SantaMonicaLogo from "../assets/santamonica.png";
+import EALogo from "../assets/ea.png";
+import ActivisionLogo from "../assets/activision.png";
+import ValveLogo from "../assets/valve.png";
+import CapcomLogo from "../assets/capcom.png";
+import CDProjektLogo from "../assets/cdprojekt.jpeg";
+import NaughtyDogLogo from "../assets/naughtydog.png";
+import QuanticDreamLogo from "../assets/quanticdream.png";
+import RocksteadyLogo from "../assets/rocksteady.png";
+import SonyLogo from "../assets/sony.png";
+import EpicGamesLogo from "../assets/epicgames.png";
 
 // Import main site logo
-import GameZoneLogo from "@/assets/gamezone-logo.png";
-
+import GameZoneLogo from "../assets/gamezone-logo.png";
+ 
 const publishers = [
   { name: "Ubisoft", logo: UbisoftLogo, path: "/publisher/ubisoft" },
   { name: "2K", logo: TwoKLogo, path: "/publisher/2k" },

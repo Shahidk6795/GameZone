@@ -2,6 +2,13 @@ import SplashCursor from "@/components/SplashCursor";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+//import images
+
+import ArkhamAsylumImage from "/src/assets/arkham_asylum.webp";
+import ArkhamCity from "/src/assets/arkham_city.jpg";
+import ArkhamKnight from "/src/assets/arkham_knight.jpg";
+import JusticeLeague from "/src/assets/suicide_squad.jpg";
+
 const Rocksteady = () => {
   const navigate = useNavigate();
 
@@ -9,28 +16,28 @@ const Rocksteady = () => {
     {
       name: "Batman: Arkham Asylum (2009)",
       desc: "The groundbreaking superhero game that started it all, set in Gotham's infamous asylum.",
-      img: "/src/assets/arkham_asylum.webp",
+      img: ArkhamAsylumImage,
       path: "/games/arkham-asylum",
       rating: "9.1/10",
     },
     {
       name: "Batman: Arkham City (2011)",
       desc: "A massive open-world Gotham experience with iconic villains and an unforgettable story.",
-      img: "/src/assets/arkham_city.jpg",
+      img: ArkhamCity,
       path: "/games/arkham-city",
       rating: "9.6/10",
     },
     {
       name: "Batman: Arkham Knight (2015)",
       desc: "The epic finale featuring the Batmobile, stunning visuals, and a darker story.",
-      img: "/src/assets/arkham_knight.jpg",
+      img: ArkhamKnight,
       path: "/games/arkham-knight",
       rating: "9.3/10",
     },
     {
       name: "Suicide Squad: Kill the Justice League (2024)",
       desc: "Step into the shoes of Harley Quinn, Deadshot, Captain Boomerang, and King Shark in an action-packed co-op shooter.",
-      img: "/src/assets/suicide_squad.jpg",
+      img: JusticeLeague,
       path: "/games/suicide-squad",
       rating: "7.5/10",
     },

@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 // Import all publisher logos
 import UbisoftLogo from "../assets/ubisoft.png";
-// import TwoKLogo from "../assets/2kLogo.png";
+import KLogo from "../assets/2kLogo.png";
 import RockstarLogo from "../assets/rockstar.png";
 import SantaMonicaLogo from "../assets/santamonica.png";
 import EALogo from "../assets/ea.png";
@@ -22,7 +22,7 @@ import GameZoneLogo from "../assets/gamezone-logo.png";
  
 const publishers = [
   { name: "Ubisoft", logo: UbisoftLogo, path: "/publisher/ubisoft" },
-  // { name: "2K", logo: TwoKLogo, path: "/publisher/2k" },
+  { name: "2K", logo: KLogo, path: "/publisher/2k" },
   { name: "Rockstar", logo: RockstarLogo, path: "/publisher/rockstar" },
   { name: "Santa Monica", logo: SantaMonicaLogo, path: "/publisher/santamonica" },
   { name: "EA Sports", logo: EALogo, path: "/publisher/ea" },

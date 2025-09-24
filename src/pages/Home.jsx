@@ -1,22 +1,40 @@
 import SplashCursor from "@/components/SplashCursor";
 import React from "react";
 
+// Import all publisher logos
+import RocksteadyLogo from "../assets/rocksteady.png";
+import UbisoftLogo from "../assets/ubisoft.png";
+import KLogo from "../assets/2KLogo.png";
+import SantaMonicaLogo from "../assets/santamonica.png";
+import EALogo from "../assets/ea.png";
+import ActivisionLogo from "../assets/activision.png";
+import ValveLogo from "../assets/valve.png";
+import CapcomLogo from "../assets/capcom.png";
+import CDProjektLogo from "../assets/cdprojekt.jpeg";
+import NaughtyDogLogo from "../assets/naughtydog.png";
+import QuanticDreamLogo from "../assets/quanticdream.png";
+import SonyLogo from "../assets/sony.png";
+import EpicGamesLogo from "../assets/epicgames.png";
+import MoreLogo from "../assets/more.png";
+
+// publishersSummary using imports
 const publishersSummary = [
-  { name: "Rocksteady", logo: "/src/assets/rocksteady.png", summary: "Creators of the iconic Arkham series. Explore Gotham like never before with thrilling gameplay and story.", highlight: true },
-  { name: "Ubisoft", logo: "/src/assets/ubisoft.png", summary: "Home to Assassin's Creed, Far Cry, and Watch Dogs franchises." },
-  { name: "2K", logo: "/src/assets/2kLogo.png", summary: "Known for NBA 2K, Borderlands, and Bioshock series." },
-  { name: "Santa Monica", logo: "/src/assets/santamonica.png", summary: "Creators of the God of War series, bringing epic adventures to life." },
-  { name: "EA Sports", logo: "/src/assets/ea.png", summary: "Famous for FIFA, Madden NFL, and other sports simulations." },
-  { name: "Activision", logo: "/src/assets/activision.png", summary: "Publisher of Call of Duty series and other blockbuster games." },
-  { name: "Valve", logo: "/src/assets/valve.png", summary: "Creators of Half-Life, Portal, and Steam platform." },
-  { name: "Capcom", logo: "/src/assets/capcom.png", summary: "Famous for Resident Evil, Street Fighter, and Monster Hunter." },
-  { name: "CD Projekt", logo: "/src/assets/cdprojekt.jpeg", summary: "Creators of The Witcher series and Cyberpunk 2077." },
-  { name: "Naughty Dog", logo: "/src/assets/naughtydog.png", summary: "Developers of Uncharted and The Last of Us series." },
-  { name: "Quantic Dream", logo: "/src/assets/quanticdream.png", summary: "Known for interactive dramas like Detroit: Become Human." },
-  { name: "Sony", logo: "/src/assets/sony.png", summary: "Creators of PlayStation exclusives and iconic franchises." },
-  { name: "Epic Games", logo: "/src/assets/epicgames.png", summary: "Famous for Fortnite and Unreal Engine." },
-  { name: "More Publishers", logo: "/src/assets/more.png", summary: "Explore many more publishers and discover amazing games." },
+  { name: "Rocksteady", logo: RocksteadyLogo, summary: "Creators of the iconic Arkham series. Explore Gotham like never before with thrilling gameplay and story.", highlight: true },
+  { name: "Ubisoft", logo: UbisoftLogo, summary: "Home to Assassin's Creed, Far Cry, and Watch Dogs franchises." },
+  { name: "2K", logo: KLogo, summary: "Known for NBA 2K, Borderlands, and Bioshock series." },
+  { name: "Santa Monica", logo: SantaMonicaLogo, summary: "Creators of the God of War series, bringing epic adventures to life." },
+  { name: "EA Sports", logo: EALogo, summary: "Famous for FIFA, Madden NFL, and other sports simulations." },
+  { name: "Activision", logo: ActivisionLogo, summary: "Publisher of Call of Duty series and other blockbuster games." },
+  { name: "Valve", logo: ValveLogo, summary: "Creators of Half-Life, Portal, and Steam platform." },
+  { name: "Capcom", logo: CapcomLogo, summary: "Famous for Resident Evil, Street Fighter, and Monster Hunter." },
+  { name: "CD Projekt", logo: CDProjektLogo, summary: "Creators of The Witcher series and Cyberpunk 2077." },
+  { name: "Naughty Dog", logo: NaughtyDogLogo, summary: "Developers of Uncharted and The Last of Us series." },
+  { name: "Quantic Dream", logo: QuanticDreamLogo, summary: "Known for interactive dramas like Detroit: Become Human." },
+  { name: "Sony", logo: SonyLogo, summary: "Creators of PlayStation exclusives and iconic franchises." },
+  { name: "Epic Games", logo: EpicGamesLogo, summary: "Famous for Fortnite and Unreal Engine." },
+  { name: "More Publishers", logo: MoreLogo, summary: "Explore many more publishers and discover amazing games." },
 ];
+
 
 function Home() {
   return (

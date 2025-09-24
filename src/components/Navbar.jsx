@@ -1,22 +1,40 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Ubisoft from "@/pages/publisher/Ubisoft ";
+
+// Import all publisher logos
+import UbisoftLogo from "@/assets/ubisoft.png";
+import TwoKLogo from "@/assets/2kLogo.png";
+import RockstarLogo from "@/assets/rockstar.png";
+import SantaMonicaLogo from "@/assets/santamonica.png";
+import EALogo from "@/assets/ea.png";
+import ActivisionLogo from "@/assets/activision.png";
+import ValveLogo from "@/assets/valve.png";
+import CapcomLogo from "@/assets/capcom.png";
+import CDProjektLogo from "@/assets/cdprojekt.jpeg";
+import NaughtyDogLogo from "@/assets/naughtydog.png";
+import QuanticDreamLogo from "@/assets/quanticdream.png";
+import RocksteadyLogo from "@/assets/rocksteady.png";
+import SonyLogo from "@/assets/sony.png";
+import EpicGamesLogo from "@/assets/epicgames.png";
+
+// Import main site logo
+import GameZoneLogo from "@/assets/gamezone-logo.png";
 
 const publishers = [
-  { name: "Ubisoft", logo: Ubisoft, path: "/publisher/ubisoft" },
-  { name: "2K", logo: "/src/assets/2kLogo.png", path: "/publisher/2k" },
-  { name: "Rockstar", logo: "/src/assets/rockstar.png", path: "/publisher/rockstar" },
-  { name: "Santa Monica", logo: "/src/assets/santamonica.png", path: "/publisher/santamonica" },
-  { name: "EA Sports", logo: "/src/assets/ea.png", path: "/publisher/ea" },
-  { name: "Activision", logo: "/src/assets/activision.png", path: "/publisher/activision" },
-  { name: "Valve", logo: "/src/assets/valve.png", path: "/publisher/valve" },
-  { name: "Capcom", logo: "/src/assets/capcom.png", path: "/publisher/capcom" },
-  { name: "CD Projekt", logo: "/src/assets/cdprojekt.jpeg", path: "/publisher/cdprojekt" },
-  { name: "Naughty Dog", logo: "/src/assets/naughtydog.png", path: "/publisher/naughtydog" },
-  { name: "Quantic Dream", logo: "/src/assets/quanticdream.png", path: "/publisher/quanticdream" },
-  { name: "Rocksteady", logo: "/src/assets/rocksteady.png", path: "/publisher/rocksteady" },
-  { name: "Sony", logo: "/src/assets/sony.png", path: "/publisher/sony" },
-  { name: "Epic Games", logo: "/src/assets/epicgames.png", path: "/publisher/epicgames" },
+  { name: "Ubisoft", logo: UbisoftLogo, path: "/publisher/ubisoft" },
+  { name: "2K", logo: TwoKLogo, path: "/publisher/2k" },
+  { name: "Rockstar", logo: RockstarLogo, path: "/publisher/rockstar" },
+  { name: "Santa Monica", logo: SantaMonicaLogo, path: "/publisher/santamonica" },
+  { name: "EA Sports", logo: EALogo, path: "/publisher/ea" },
+  { name: "Activision", logo: ActivisionLogo, path: "/publisher/activision" },
+  { name: "Valve", logo: ValveLogo, path: "/publisher/valve" },
+  { name: "Capcom", logo: CapcomLogo, path: "/publisher/capcom" },
+  { name: "CD Projekt", logo: CDProjektLogo, path: "/publisher/cdprojekt" },
+  { name: "Naughty Dog", logo: NaughtyDogLogo, path: "/publisher/naughtydog" },
+  { name: "Quantic Dream", logo: QuanticDreamLogo, path: "/publisher/quanticdream" },
+  { name: "Rocksteady", logo: RocksteadyLogo, path: "/publisher/rocksteady" },
+  { name: "Sony", logo: SonyLogo, path: "/publisher/sony" },
+  { name: "Epic Games", logo: EpicGamesLogo, path: "/publisher/epicgames" },
 ];
 
 const Navbar = ({ query, onQuery }) => {
@@ -40,7 +58,7 @@ const Navbar = ({ query, onQuery }) => {
           >
             <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-400 blur-xl opacity-30 animate-rgbFlow z-0"></div>
             <img
-              src="/src/assets/gamezone-logo.png"
+              src={GameZoneLogo}
               alt="GameZone Logo"
               className="h-24 md:h-28 w-auto relative z-10"
             />

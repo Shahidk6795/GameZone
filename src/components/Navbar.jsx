@@ -1,8 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Ubisoft from "@/pages/publisher/Ubisoft ";
 
 const publishers = [
-  { name: "Ubisoft", logo: "/src/assets/ubisoft.png", path: "/publisher/ubisoft" },
+  { name: "Ubisoft", logo: Ubisoft, path: "/publisher/ubisoft" },
   { name: "2K", logo: "/src/assets/2kLogo.png", path: "/publisher/2k" },
   { name: "Rockstar", logo: "/src/assets/rockstar.png", path: "/publisher/rockstar" },
   { name: "Santa Monica", logo: "/src/assets/santamonica.png", path: "/publisher/santamonica" },

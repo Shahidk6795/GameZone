@@ -5,6 +5,10 @@ import acm from "/src/assets/ac_mirage.jpg";
 import aco from "/src/assets/ac_odyssey.jpeg";
 import acv from "/src/assets/ac_valhalla.jpg";
 import acor from "/src/assets/ac_origins.jpg";
+import fc from "/src/assets/farcryprimal.jpg";
+import wd1 from "/src/assets/watchdogs1.jpg";
+import wd2 from "/src/assets/watchdogs2.jpg";
+import wdl from "/src/assets/watchdogslegion.jpg";
 const Ubisoft = () => {
   const navigate = useNavigate();
 
@@ -18,11 +22,15 @@ const Ubisoft = () => {
     { name: "Assassin's Creed Origins", desc: "Uncover the secrets of Ancient Egypt.",
        img: acor, path: "/games/ac-origins", rating: "9/10" },
 
-    { name: "Far Cry Primal", desc: "Experience survival in the Stone Age.", img: "/src/assets/farcryprimal.jpg", path: "/games/farcryprimal", rating: "8.4/10" },
+    { name: "Far Cry Primal", desc: "Experience survival in the Stone Age.",
+      img: fc, path: "/games/farcryprimal", rating: "8.4/10" },
 
-    { name: "Watch Dogs", desc: "Hack the city and uncover hidden secrets.", img: "/src/assets/watchdogs1.jpg", path: "/games/watchdogs1", rating: "8.3/10" },
-    { name: "Watch Dogs 2", desc: "Join DedSec to fight corrupt corporations in San Francisco.", img: "/src/assets/watchdogs2.jpg", path: "/games/watchdogs2", rating: "8.7/10" },
-    { name: "Watch Dogs: Legion", desc: "Recruit anyone to fight back in a dystopian London.", img: "/src/assets/watchdogslegion.jpg", path: "/games/watchdogslegion", rating: "8.5/10" }
+    { name: "Watch Dogs", desc: "Hack the city and uncover hidden secrets.",
+       img: wd1, path: "/games/watchdogs1", rating: "8.3/10" },
+    { name: "Watch Dogs 2", desc: "Join DedSec to fight corrupt corporations in San Francisco.",
+       img: wd2, path: "/games/watchdogs2", rating: "8.7/10" },
+    { name: "Watch Dogs: Legion", desc: "Recruit anyone to fight back in a dystopian London.",
+       img: wdl, path: "/games/watchdogslegion", rating: "8.5/10" }
   ];
 
   return (

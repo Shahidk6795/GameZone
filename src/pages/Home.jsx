@@ -1,6 +1,5 @@
 import SplashCursor from "@/components/SplashCursor";
 import React from "react";
-
 // Import all publisher logos
 import RocksteadyLogo from "../assets/rocksteady.png";
 import UbisoftLogo from "../assets/ubisoft.png";

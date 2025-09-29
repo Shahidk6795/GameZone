@@ -7,6 +7,7 @@ import gtas from "/src/assets/gta_sa.jpg";
 import rdr2 from "/src/assets/rdr2.jpg";
 import rdr1 from "/src/assets/rdr1.webp";
 import bully from "/src/assets/bully.jpg";
+import SplashCursor from "@/components/SplashCursor";
 
 const Rockstar = () => {
   const navigate = useNavigate();
@@ -28,6 +29,7 @@ const Rockstar = () => {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center py-16 px-6 space-y-12">
+      <SplashCursor />
       <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-yellow-400 animate-rgbFlow mb-12">
         Rockstar Games
       </h1>

@@ -6,6 +6,7 @@ import wwe24 from "/src/assets/wwe2k24.webp";
 import wwe25 from "/src/assets/wwe2k25.jpg";
 import mafia1 from "/src/assets/mafia_definitive.jpeg";
 import mafia2 from "/src/assets/mafia_old.webp";
+import SplashCursor from "@/components/SplashCursor";
 
 const TwoK = () => {
   const navigate = useNavigate();
@@ -25,6 +26,7 @@ const TwoK = () => {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center py-16 px-6 space-y-12">
+      <SplashCursor />
       <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-yellow-400 animate-rgbFlow mb-12">
         2k Games
       </h1>

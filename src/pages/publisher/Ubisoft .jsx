@@ -9,6 +9,7 @@ import fc from "/src/assets/farcryprimal.jpg";
 import wd1 from "/src/assets/watchdogs1.jpg";
 import wd2 from "/src/assets/watchdogs2.jpg";
 import wdl from "/src/assets/watchdogslegion.jpg";
+import SplashCursor from "@/components/SplashCursor";
 const Ubisoft = () => {
   const navigate = useNavigate();
 
@@ -35,6 +36,7 @@ const Ubisoft = () => {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center py-16 px-6 space-y-12">
+    <SplashCursor />
       <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-yellow-400 animate-rgbFlow mb-12">
         Ubisoft Games
       </h1>

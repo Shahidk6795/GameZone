@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import dota2 from "/src/assets/dota2.webp";
 import cs from "/src/assets/csgo.jpg";
 import hl from "/src/assets/hl_alyx.jpg";
+import SplashCursor from "@/components/SplashCursor";
 
 const Valve = () => {
   const navigate = useNavigate();
@@ -19,6 +20,7 @@ const Valve = () => {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center py-16 px-6 space-y-12">
+      <SplashCursor />
       <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-yellow-400 animate-rgbFlow mb-12">
         Valve Games
       </h1>

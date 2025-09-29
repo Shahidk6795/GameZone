@@ -7,6 +7,7 @@ import gow3 from "/src/assets/gow3.jpg";
 import gowA from "/src/assets/gow_ascension.jpg";
 import gow2018 from "/src/assets/gow2018.webp";
 import gowragnarok from "/src/assets/gow_ragnarok.jpg";
+import SplashCursor from "@/components/SplashCursor";
 
 const SantaMonica = () => {
   const navigate = useNavigate();
@@ -28,6 +29,7 @@ const SantaMonica = () => {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center py-16 px-6 space-y-12">
+      <SplashCursor />
       <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-yellow-400 animate-rgbFlow mb-12">
         Santa Monica Studio Games
       </h1>

@@ -1,6 +1,5 @@
 import SplashCursor from "@/components/SplashCursor";
 import React from "react";
-// Import all publisher logos
 import RocksteadyLogo from "../assets/rocksteady.png";
 import UbisoftLogo from "../assets/ubisoft.png";
 import KLogo from "../assets/2KLogo.png";
@@ -16,7 +15,6 @@ import SonyLogo from "../assets/sony.png";
 import EpicGamesLogo from "../assets/epicgames.png";
 import MoreLogo from "../assets/more.png";
 
-// publishersSummary using imports
 const publishersSummary = [
   { name: "Rocksteady", logo: RocksteadyLogo, summary: "Creators of the iconic Arkham series. Explore Gotham like never before with thrilling gameplay and story.", highlight: true },
   { name: "Ubisoft", logo: UbisoftLogo, summary: "Home to Assassin's Creed, Far Cry, and Watch Dogs franchises." },
@@ -68,7 +66,6 @@ function Home() {
         ))}
       </div>
 
-      {/* Hero Section */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center px-6">
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-yellow-400 animate-rgbFlow drop-shadow-[0_0_20px_#a855f7]">
           Welcome to GameZone
@@ -101,7 +98,6 @@ function Home() {
         </div>
       </div>
 
-      {/* Top Publishers */}
       <div className="relative z-10 py-20 px-6 md:px-12">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-yellow-400 drop-shadow-[0_0_15px_#a855f7]">
           Top Publishers
@@ -127,7 +123,6 @@ function Home() {
         </div>
       </div>
 
-      {/* Join Now Section */}
       <div className="relative z-10 py-16 text-center">
         <h3 className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-yellow-400 mb-6">
           Ready to start your journey?
